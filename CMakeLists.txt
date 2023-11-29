@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.18 FATAL_ERROR)
 
 # the necessary check to avoid name collisions if the target is used in multiple places (e.g. in submodules)
 if(TARGET lib_fetch_a)
-    # return()
+    return()
 endif()
 
 project(lib_fetch_a LANGUAGES CXX)
