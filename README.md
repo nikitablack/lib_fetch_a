@@ -1,1 +1,1 @@
-# lib_fetch_a
+# my_submodule_lib
